@@ -1,5 +1,5 @@
 # Scraper for https://cityexpert.rs/
-With this application you can scrap https://cityexpert.rs/ and find an apartment in Belgrade, Novi Sad or Nish.
+This application allows you to get information about apartments from https://cityexpert.rs/ and find an apartment in Belgrade, Novi Sad, or Nish.
 
 ## Installation
 
