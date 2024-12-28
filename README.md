@@ -59,4 +59,4 @@ You will automatically download a JSON file with credentials. It may looks like 
 
 Save it as "creds.json" in the root folder of the project.
 
-Than you should create a new sheet on your Google Drive and shared it with "client_email" from "creds.json".
+Than you should create a new sheet on your Google Drive, and name it "cityexpert_parsing_report" and shared it with "client_email" from "creds.json".
