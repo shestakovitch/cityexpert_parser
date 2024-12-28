@@ -31,13 +31,14 @@ Installing the required packages from requirements.txt﻿:
 2. In "config.py" you can see a lot of filters. For example variables "max_price" and "min_size" or values in "params" dictionary such us "minPrice", "maxSize", "floor", "furnishingArray" etc.
 
 3. 'params["polygonsArray"]' is responsible for the city's areas. By default, in my app it's around the city center.
-By default, this app saves data to output_file="cityexpert_data.xlsx" on your computer. If you want to save it on your Google Drive:
+
+4. By default, this app saves data to output_file="cityexpert_data.xlsx" on your computer. If you want to save it on your Google Drive:
 
 You should install gspread. Here is a link to the documentation: https://docs.gspread.org/
 
 Also, you should enable API Access for a Project: https://docs.gspread.org/en/v6.1.3/oauth2.html#enable-api-access
 
-You will automatically download a JSON file with credentials. It may look like this:
+You will automatically download a JSON file with credentials. It may looks like this:
 
 {
 
