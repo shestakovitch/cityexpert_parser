@@ -28,9 +28,9 @@ Installing the required packages from requirements.txt﻿:
 
   And don't forget to change 'params["polygonsArray"]' in "config.py", because this parameter is responsible for the city's areas.
 
-2. In "config.py" you can see a lot of filters. For example variables "max_price" and "min_size" or values in "params" dictionary such us "minPrice", "maxSize", "floor", "furnishingArray" etc.
+2. In "config.py," you can see many filters. For example, variables "max_price" and "min_size" or values in the "params" dictionary, such as "minPrice," "maxSize," "floor," "furnishingArray," etc.
 
-3. 'params["polygonsArray"]' is responsible for the city's areas. By default, in my app it's around the city center.
+3. 'params["polygonsArray"]' is responsible for the city's areas. By default, my app's area is around the city center.
 
 4. By default, this app saves data to output_file="cityexpert_data.xlsx" on your computer. If you want to save it on your Google Drive:
 
@@ -38,7 +38,7 @@ You should install gspread. Here is a link to the documentation: https://docs.gs
 
 Also, you should enable API Access for a Project: https://docs.gspread.org/en/v6.1.3/oauth2.html#enable-api-access
 
-You will automatically download a JSON file with credentials. It may looks like this:
+You will automatically download a JSON file with credentials. It may look like this:
 
 {
 
@@ -59,4 +59,4 @@ You will automatically download a JSON file with credentials. It may looks like 
 
 Save it as "creds.json" in the root folder of the project.
 
-Than you should create a new sheet on your Google Drive, and name it "cityexpert_parsing_report" and shared it with "client_email" from "creds.json".
+Then you should create a new sheet on your Google Drive, name it "cityexpert_parsing_report" and share it with "client_email" from "creds.json".
