@@ -1,3 +1,7 @@
+import fake_user_agent
+
+user = fake_user_agent.user_agent()
+
 base_url = 'https://cityexpert.rs/izdavanje-nekretnina/beograd'
 
 # Filters
@@ -27,7 +31,7 @@ headers = {
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+    'user-agent': user
 }
 
 params = {
