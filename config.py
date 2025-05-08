@@ -5,7 +5,7 @@ user = fake_user_agent.user_agent()
 base_url = 'https://cityexpert.rs/izdavanje-nekretnina/beograd'
 
 # Filters
-max_price = "800"
+max_price = "750"
 min_size = "40"
 
 cookies = {
@@ -40,11 +40,12 @@ params = {
     # "minPrice": "500",
     "maxPrice": max_price,
     "minSize": min_size,
+    # "bedroomsArray": "r2",
     # "maxSize": "100",
     # "floor": "1,2_4,5_10,11+,SU,VPR,PR,NPR,PTK", # floors
     "furnished": "1,2", # 1 - furnished, 2 - partially furnished, 3 - empty
     "furnishingArray": "furAircon,furInternet", # furBed,furCable,furTV,furWasher,furDishWasher,furStove,furShower,furFridge,furTub
     # "heatingArray": "1", # central heating, uncomment this string if it doesn't matter
-    # "petsArray": "1,2,3,4,5", # 1 - dog, 2 - cat, 3 - in aquarium, 4 - in cage, 5 - in terrarium
+    # "petsArray": "2", # 1 - dog, 2 - cat, 3 - in aquarium, 4 - in cage, 5 - in terrarium
     "polygonsArray": "Stara Palilula,Stari grad,Trg Republike,Botanička bašta,Hram Svetog Save,Savamala,Dorćol,Cvetni trg / park Manjež,Slavija,Vukov spomenik,Profesorska kolonija,Centar,Kopitareva Gradina,K-District,Palilula - uži deo,Novi Dorćol,Beograd na vodi,Savski amfiteatar,Tašmajdan,Kalenić pijaca,Gundulićev venac,Terazije,Kosančićev venac,Vračar"
 }
