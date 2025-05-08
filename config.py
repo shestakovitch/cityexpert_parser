@@ -40,7 +40,7 @@ params = {
     # "minPrice": "500",
     "maxPrice": max_price,
     "minSize": min_size,
-    # "bedroomsArray": "r2",
+    # "bedroomsArray": "r1", # From "r1" to "r5" and "r6%2B"
     # "maxSize": "100",
     # "floor": "1,2_4,5_10,11+,SU,VPR,PR,NPR,PTK", # floors
     "furnished": "1,2", # 1 - furnished, 2 - partially furnished, 3 - empty
