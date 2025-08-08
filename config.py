@@ -5,8 +5,8 @@ user = fake_user_agent.user_agent()
 base_url = 'https://cityexpert.rs/izdavanje-nekretnina/beograd'
 
 # Filters
-max_price = "750"
-min_size = "40"
+max_price = "700"
+min_size = "50"
 
 cookies = {
     '_gcl_au': '1.1.834019488.1735073377',
@@ -43,7 +43,7 @@ params = {
     # "bedroomsArray": "r1", # From "r1" to "r5" and "r6%2B"
     # "maxSize": "100",
     # "floor": "1,2_4,5_10,11+,SU,VPR,PR,NPR,PTK", # floors
-    "furnished": "1,2", # 1 - furnished, 2 - partially furnished, 3 - empty
+    "furnished": "1", # 1 - furnished, 2 - partially furnished, 3 - empty
     "furnishingArray": "furAircon,furInternet", # furBed,furCable,furTV,furWasher,furDishWasher,furStove,furShower,furFridge,furTub
     # "heatingArray": "1", # central heating, uncomment this string if it doesn't matter
     # "petsArray": "2", # 1 - dog, 2 - cat, 3 - in aquarium, 4 - in cage, 5 - in terrarium

@@ -14,8 +14,8 @@ def main():
             yield from parse_apartments(html)
             time.sleep(3)
 
-    # save_to_gs(apartments_generator())  # If you want to save result to Google Drive
-    save_to_xlsx(apartments_generator()) # If you want to save result to your computer
+    save_to_gs(apartments_generator())  # If you want to save result to Google Drive
+    # save_to_xlsx(apartments_generator()) # If you want to save result to your computer
 
 
 if __name__ == "__main__":
